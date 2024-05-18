@@ -1,0 +1,5 @@
+---
+- name: Install httpd and firewall changes
+  hosts: localhost
+  roles:
+    - httpd_setup
